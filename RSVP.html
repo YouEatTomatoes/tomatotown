@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initital-scale=1.0">
+    <title>A Fancy Party</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: Fancy;
+            src: url(frunchy-sage.ttf);
+            }
+        h1 {
+            font-family: Fancy;
+            font-size:200%;
+            text-align: center;
+        }
+        body {
+            background-image: radial-gradient(rgb(115, 100, 88), rgb(195, 191, 191));
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: "Anta", "Noto Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-variation-settings: "width" 100;
+        }
+        .container {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        @media (min-width: 1200px) {
+            .container {
+                flex-direction: row;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>We're overjoyed that you're interested in attending.<br>Fill out the form below, and we'll take care of the rest.</h1>
+    <div class="container">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd3EFsuL6vYZmsXCkLnuMkOeXeeyFrGG76PTzistnIvAYYFsA/viewform?embedded=true" width="600" height="1005" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <img src="images/Invitation.png" style="width: 600px;">
+</div> 
+</body>
+</html>
